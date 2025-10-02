@@ -168,6 +168,60 @@ html {
   font-family: Arial, sans-serif;
   font-size: 14px;
 }
+
+/* TEXT_IMG */
+.block-devenir {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+/* Conteneur global */
+.block-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titre en haut */
+.block-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+/* Deux colonnes */
+.block-columns-img {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Colonne texte */
+.block-text {
+  flex: 1;
+  padding-left: 5%;
+}
+
+.block-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+/* Colonne image */
+.block-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.block-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
     </style>
 </head>
 
@@ -191,7 +245,33 @@ html {
 
 
 <!-- Corps -->
+<section class="block-devenir">
+  <div class="block-container">
+    <!-- Titre en haut -->
+    <h1 class="block-title">Ingénieur par l’apprentissage</h1>
 
+    <!-- Deux colonnes -->
+    <div class="block-columns-img">
+      <!-- Colonne gauche : texte -->
+      <div class="block-text">
+        <p>
+          
+        </p>
+        <p>
+            Le cycle ingénieur correspond aux trois dernières années de la formation d’ingénieur. Sous statut apprenti, ces trois années sont réalisées en apprentissage au sein d’une entreprise d’accueil.
+        </p>
+        <p>
+            Tout au long de cette formation, vous alternez les périodes à l’école et les périodes en entreprises en montant progressivement en compétence. Ces périodes durent environ 6 semaines lors des deux premières années, puis 6 mois la dernière année. Ces rythmes d’alternance permettent aux étudiants de travailler avec des entreprises sur tout le territoire français.
+        </p>
+      </div>
+
+      <!-- Colonne droite : image -->
+      <div class="block-image">
+        <img src="https://isen-ouest.fr/wp-content/uploads/2024/11/08/shema-cycle-inge-12-1320x752.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Footer -->
