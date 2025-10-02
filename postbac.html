@@ -168,6 +168,59 @@ html {
   font-family: Arial, sans-serif;
   font-size: 14px;
 }
+/* TEXT_IMG */
+.block-devenir {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+/* Conteneur global */
+.block-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titre en haut */
+.block-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+/* Deux colonnes */
+.block-columns-img {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+/* Colonne texte */
+.block-text {
+  flex: 1;
+  padding-left: 5%;
+}
+
+.block-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+/* Colonne image */
+.block-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.block-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
     </style>
 </head>
 <body>
@@ -186,7 +239,36 @@ html {
     </nav>
   </div>
 </header>
+<section class="block-devenir">
+  <div class="block-container">
+    <!-- Titre en haut -->
+    <h1 class="block-title">Formations post-bac</h1>
 
+    <!-- Deux colonnes -->
+    <div class="block-columns-img">
+      <!-- Colonne gauche : texte -->
+      <div class="block-text">
+        <p>
+          Chaque étudiant construit son propre parcours de formation sur 5 ans
+        </p>
+        <p>
+         Au cours des trois premières années post-bac, les étudiants choisissent leur cursus parmi 7 cycles de formation différents.</p>
+        <p>
+         Au cours de ces 3 années, les élèves acquièrent une solide formation dans les sciences et les technologies numériques tout en approfondissant une spécialité dès la première année après le baccalauréat. Plusieurs passerelles sont possibles durant les 3 premières années si l’étudiant souhaite changer de cycle.</p>
+        <p>Après la deuxième année, il est possible de choisir une poursuite d’études sous statut étudiant ou d’opter pour un contrat d’apprentissage.
+        </p>
+        <p>Au niveau Master 1, qu’il soit sous statut étudiant ou apprenti, chaque élève accède à un large choix de domaines professionnels sans concours ni critère de classement.</p>
+        
+      </div>
+
+      <!-- Colonne droite : image -->
+      <div class="block-image">
+        <img src="
+https://isen-ouest.fr/wp-content/uploads/2024/09/11/schema-des-etudes-isen-ouest-32.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
 <footer class="site-footer">
   <div class="footer-container">
 
